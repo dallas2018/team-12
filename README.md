@@ -9,7 +9,7 @@ Q. Can an app be integrated with different platforms to expand the horizon?
 A. We tried to make it as accessible as possible from every aspect to make the application usable.
 
 
-##Installation
+## Installation
 ```
 npm install
 npm start
