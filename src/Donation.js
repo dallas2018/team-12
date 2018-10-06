@@ -1,7 +1,11 @@
 import React, { Component } from 'react';
+<<<<<<< HEAD
 
 import {Panel} from 'react-bootstrap'
 
+=======
+import {Panel} from 'react-bootstrap'
+>>>>>>> 61c433ab8d587cdfb46e4c8c4a10b15b2c1f870e
 
 class Sale extends Component {
     render() {

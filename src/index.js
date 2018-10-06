@@ -3,12 +3,11 @@ import ReactDOM from 'react-dom';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 import './index.css';
 
-
+import Donation from './Donation'
 import Features from './Features/index';
 import Login from './Login/index';
 import Menu from './MenuPage';
 import Navigation from './navigation';
-import Donation from './Donation';
 
 
 

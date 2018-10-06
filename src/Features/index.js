@@ -23,7 +23,7 @@ class Feature extends Component{
         return(
             <div>
         <Panel>
-<Panel.Heading>Charity Name</Panel.Heading>
+<Panel.Heading className = "PanelHeading">GuideStar</Panel.Heading>
   <Panel.Body>
         
     <Grid>
