@@ -1,8 +1,7 @@
 from django.contrib.auth import authenticate
 from rest_framework import serializers
 from drf_compound_fields.fields import ListField
-from apps.user_info.models import primary_doctor
-from apps.user_info.serialization import *
+#from apps.user_info.serialization import *
 from .models import User
 
 class RegistrationSerializer(serializers.ModelSerializer):

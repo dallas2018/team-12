@@ -26,7 +26,7 @@ schema_view = get_swagger_view(title = API_TITLE)
 urlpatterns = [
     #url(r'^erbuddyapi/',include('apps.phonecase_t1.urls',namespace = 'phonecase_t1')),
     #url(r'^CodeForGoodapi/',include('apps.utilities.urls', namespace = 'utilities')),
-    url(r'^CodeForGoodapi/',include('apps.authentication.urls',namespace='authentication')),
+    url(r'^CodeForGoodapi/',include(('apps.authentication.urls','authentication'),namespace='authentication')),
     url(r'^admin/', admin.site.urls),
     url(r'^swagger-docs/',schema_view),
 ]
