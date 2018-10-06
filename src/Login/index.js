@@ -1,8 +1,8 @@
 
 import React, { Component } from 'react';
-import './App.css';
-import Loginscreen from './Loginscreen'
-import injectTapEventPlugin from 'react-tap-event-plugin';
+import Loginscreen from './Loginscreen';
+import '../App.css';
+//import injectTapEventPlugin from 'react-tap-event-plugin';
 // Needed for onTouchTap
 // http://stackoverflow.com/a/34015469/988941
 
@@ -30,7 +30,4 @@ class App extends Component {
     );
   }
 }
-const style = {
-  margin: 15,
-};
 export default App;

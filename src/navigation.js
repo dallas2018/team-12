@@ -2,26 +2,27 @@ import React ,{Component} from 'react';
 import {Nav,
     Navbar,
 NavItem,
-NavDropdown,
+NavDropdown,pullRight,
 MenuItem} from 'react-bootstrap'
 class Navigation extends Component{
     render(){
         return(
-        <Navbar>
+          <Navbar inverse collapseOnSelect>
   <Navbar.Header>
     
+    <Navbar.Toggle />
   </Navbar.Header>
   <Nav>
-    <NavItem eventKey={1} href="/home/">
+    <NavItem eventKey={1} href="/">
       Home
     </NavItem>
-    <NavItem eventKey={2} href="/features/">
+    <NavItem eventKey={2} href="/features">
       Features
     </NavItem>
-    <NavItem eventKey={3} href="/Items/">
+    <NavItem eventKeys={3} href="/Items/">
       Items
     </NavItem>
-    <NavItem eventKey={4} href="/Log In/">
+    <NavItem eventKey={4} href="/Login/">
       Sign Up/Log In
     </NavItem>
     <NavDropdown eventKey={3} title="Dropdown" id="basic-nav-dropdown">
