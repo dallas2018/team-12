@@ -11,19 +11,19 @@ class Menu extends Component {
   <Carousel.Item>
     <img width={600} height={500} alt="900x500" src ="https://slack-imgs.com/?c=1&url=https%3A%2F%2Fcdn-image.realsimple.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fportrait_435x518%2Fpublic%2F1527198293%2Fbest%2520beauty%2520products%2520and%2520must%2520haves%2520of%2520all%2520time.jpg%3Fitok%3Dmp4Ks9KD" />
     <Carousel.Caption className="Caption">
-      <h3>First slide label</h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      <h3>GuideStar</h3>
+      <p>Buy this item to donate to Charity.</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
     <img width={600} height={500} alt="900x500" src="https://slack-imgs.com/?c=1&url=https%3A%2F%2Fcdn2.stylecraze.com%2Fwp-content%2Fuploads%2F2014%2F02%2FBest-Popular-Hair-Care-Products-Available-In-India.jpg" />
     <Carousel.Caption className="Caption">
       <h3>Second slide label</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <p>Buy this item to donate to Charity.</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
-    <img width={900} height={500} alt="900x500" src="https://i5.walmartimages.com/asr/407a9e0e-0d71-4676-a2aa-0894bcaee5a1_1.43e2cf366f595a6414b72dac06558ba3.jpeg" />
+    <img width={600} height={500} alt="900x500" src="https://i5.walmartimages.com/asr/407a9e0e-0d71-4676-a2aa-0894bcaee5a1_1.43e2cf366f595a6414b72dac06558ba3.jpeg" />
     <Carousel.Caption className="Caption">
       <h3>Third slide label</h3>
       <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
