@@ -23,6 +23,9 @@ class Navigation extends Component{
     <NavItem eventKey={4} href="/Login/">
       Sign Up/Log In
     </NavItem>
+    <NavItem eventKey={5} href="/Donate/">
+    Donate
+    </NavItem>
   </Nav>
         </Navbar>);
     }

@@ -2,3 +2,8 @@
     position: center;
     text-align: center;
 }
+.Caption{
+    top: 40%;
+    bottom: auto;
+    right: 10%;;
+}
