@@ -5,5 +5,11 @@
 .Caption{
     top: 40%;
     bottom: auto;
-    right: 10%;;
+    right: 10%;
+}
+.products2{
+    height: 100%;
+}
+.footer1{
+    background-color:'blue';
 }

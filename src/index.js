@@ -3,11 +3,13 @@ import ReactDOM from 'react-dom';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 import './index.css';
 
-
+import Buy from './Buy';
+import Donation from './Charity/Donation'
 import Features from './Features/index';
 import Login from './Login/index';
 import Menu from './MenuPage';
 import Navigation from './navigation';
+
 
 
 
@@ -17,9 +19,12 @@ ReactDOM.render(<Navigation/>,document.getElementById('Header'));
 ReactDOM.render(
 <Router>
     <div>
+        <Route path = "/buy" exact component = {Buy}/>
         <Route path="/" exact component={Menu} />
         <Route path="/login" exact component={Login} />
         <Route path="/features" exact component ={Features}/>
+        <Route path="/donate" exact component ={Donation}/>
+        
     </div>
 </Router>,
 document.getElementById('root'));

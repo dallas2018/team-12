@@ -1,7 +1,8 @@
 import React ,{Component} from 'react';
 import {Nav,
     Navbar,
-NavItem} from 'react-bootstrap'
+NavItem, } from 'react-bootstrap'
+
 class Navigation extends Component{
     render(){
         return(
@@ -15,17 +16,18 @@ class Navigation extends Component{
       Home
     </NavItem>
     <NavItem eventKey={2} href="/features">
-      Features
+      Featured Items
     </NavItem>
-    <NavItem eventKeys={3} href="/Items/">
-      Items
-    </NavItem>
-    <NavItem eventKey={4} href="/Login/">
+    <NavItem eventKey={4} href="/Login">
       Sign Up/Log In
     </NavItem>
-    <NavItem eventKey={5} href="/Donate/">
+    <NavItem eventKey={5} href="/donate">
     Donate
     </NavItem>
+    <NavItem eventKey={6} href="https://neonto.cloud/preview/7ygawyyv/">
+    Mobile Site (Test)
+    </NavItem>
+    
   </Nav>
         </Navbar>);
     }
