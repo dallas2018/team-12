@@ -51,7 +51,7 @@ class Menu extends Component {
       </Thumbnail>
     </Col>
     <Col xs={6} md={4}>
-      <Thumbnail className="products2" src="https://images.offerup.com/AUNlvG7MlormTS3hg7we7mhHMLI=/600x800/ba3d/ba3d1fd609aa4f3a9aa44dd2ade4f033.jpg" alt="242x200">
+      <Thumbnail className="products2" src="http://getdrawings.com/image/skinny-jeans-drawing-53.jpg" alt="242x200">
         
         <p>
         <Button bsStyle="Buy">Buy</Button>
@@ -59,7 +59,7 @@ class Menu extends Component {
       </Thumbnail>
     </Col>
     <Col xs={6} md={4}>
-      <Thumbnail className="products3" src="http://getdrawings.com/image/skinny-jeans-drawing-53.jpg" alt="242x200">
+      <Thumbnail className="products3" src="https://images.offerup.com/qMG7FT0c4mh477YHBalBgt_-0VY=/600x800/28b8/28b877ae30c94b43b4062efd959504a0.jpg" alt="242x200">
         
         <p>
         <Button bsStyle="Buy" frameBorder='true'>Buy</Button>
