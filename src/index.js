@@ -8,6 +8,8 @@ import Features from './Features/index';
 import Login from './Login/index';
 import Menu from './MenuPage';
 import Navigation from './navigation';
+import Donation from './Donation';
+
 
 
 
@@ -20,6 +22,8 @@ ReactDOM.render(
         <Route path="/" exact component={Menu} />
         <Route path="/login" exact component={Login} />
         <Route path="/features" exact component ={Features}/>
+        <Route path="/donate" exact component ={Donation}/>
+        
     </div>
 </Router>,
 document.getElementById('root'));

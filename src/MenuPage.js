@@ -42,9 +42,8 @@ class Menu extends Component {
           <Grid>
   <Row>
     <Col xs={6} md={4}>
-      <Thumbnail src="https://i5.walmartimages.com/asr/407a9e0e-0d71-4676-a2aa-0894bcaee5a1_1.43e2cf366f595a6414b72dac06558ba3.jpeg" alt="242x200">
-        <h3>Thumbnail label</h3>
-        <p>Description</p>
+      <Thumbnail className="products" src="https://i5.walmartimages.com/asr/407a9e0e-0d71-4676-a2aa-0894bcaee5a1_1.43e2cf366f595a6414b72dac06558ba3.jpeg" alt="242x200">
+        
         <p>
           <Button bsStyle="Buy">Buy</Button>
           
@@ -52,18 +51,16 @@ class Menu extends Component {
       </Thumbnail>
     </Col>
     <Col xs={6} md={4}>
-      <Thumbnail src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/PNG_transparency_demonstration_1.png/280px-PNG_transparency_demonstration_1.png" alt="242x200">
-        <h3>Thumbnail label</h3>
-        <p>Description</p>
+      <Thumbnail className="products2" src="https://images.offerup.com/AUNlvG7MlormTS3hg7we7mhHMLI=/600x800/ba3d/ba3d1fd609aa4f3a9aa44dd2ade4f033.jpg" alt="242x200">
+        
         <p>
         <Button bsStyle="Buy">Buy</Button>
         </p>
       </Thumbnail>
     </Col>
     <Col xs={6} md={4}>
-      <Thumbnail src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/PNG_transparency_demonstration_1.png/280px-PNG_transparency_demonstration_1.png" alt="242x200">
-        <h3>Thumbnail label</h3>
-        <p>Description</p>
+      <Thumbnail className="products3" src="http://getdrawings.com/image/skinny-jeans-drawing-53.jpg" alt="242x200">
+        
         <p>
         <Button bsStyle="Buy" frameBorder='true'>Buy</Button>
         </p>

@@ -1,7 +1,8 @@
 import React ,{Component} from 'react';
 import {Nav,
     Navbar,
-NavItem} from 'react-bootstrap'
+NavItem, } from 'react-bootstrap'
+
 class Navigation extends Component{
     render(){
         return(
@@ -15,7 +16,7 @@ class Navigation extends Component{
       Home
     </NavItem>
     <NavItem eventKey={2} href="/features">
-      Features
+      Featured  
     </NavItem>
     <NavItem eventKeys={3} href="/Items/">
       Items
@@ -23,9 +24,10 @@ class Navigation extends Component{
     <NavItem eventKey={4} href="/Login/">
       Sign Up/Log In
     </NavItem>
-    <NavItem eventKey={5} href="/Donate/">
+    <NavItem eventKey={5} href="/donate">
     Donate
     </NavItem>
+    
   </Nav>
         </Navbar>);
     }
