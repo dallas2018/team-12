@@ -10,6 +10,7 @@
     "npm": "^6.4.1",
     "react": "^16.5.2",
     "react-bootstrap": "^0.32.4",
+    "react-credit-cards": "^0.7.0",
     "react-dom": "^16.5.2",
     "react-empty-placeholder": "0.0.3",
     "react-grid-system": "^4.3.1",

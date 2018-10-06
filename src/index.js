@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 import './index.css';
 
-import Donation from './Donation'
+import Buy from './Buy';
+import Donation from './Charity/Donation'
 import Features from './Features/index';
 import Login from './Login/index';
 import Menu from './MenuPage';
@@ -18,6 +19,7 @@ ReactDOM.render(<Navigation/>,document.getElementById('Header'));
 ReactDOM.render(
 <Router>
     <div>
+        <Route path = "/buy" exact component = {Buy}/>
         <Route path="/" exact component={Menu} />
         <Route path="/login" exact component={Login} />
         <Route path="/features" exact component ={Features}/>

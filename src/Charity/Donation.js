@@ -2,16 +2,21 @@ import React, { Component } from 'react';
 import {Panel} from 'react-bootstrap'
 
 class Sale extends Component {
+  handleClick(){
+
+  }
     render() {
       return (
           <div className="Personal Info">
 
           <div>
-  <Panel>
-    <Panel.Heading><Panel.Title>GuideStar USA</Panel.Title></Panel.Heading>
+  
+  <Panel href="https://www.guidestar.org/Home.aspx">
+    <Panel.Heading ><Panel.Title>GuideStar USA</Panel.Title></Panel.Heading>
     <Panel.Body>GuideStar USA, Inc. is an information service specializing in reporting on U.S. nonprofit companies.  In 2016, its database provided information on 2.5 million organizations.GuideStar was one of the first central sources of information on U.S. nonprofits and is the world's largest source of information about nonprofit organizations.  GuideStar was founded in Williamsburg, Virginia in September 1994 and received tax-exempt status in 1996, the same year the company began posting nonprofit organizations' financial reports to the World Wide Web.GuideStar also serves to verify that a recipient organization is established and that donated funds go where the donor intended for individuals looking to give in the wake of disasters.In 2013, GuideStar announced major changes to its GuideStar Exchange program, which allows nonprofits to supplement the public information that is available from the IRS. GuideStar Nonprofit Profiles implemented three seals based on the information a nonprofit provides in its profile: Bronze, Silver, and Gold. In 2016, a new seal that allowed nonprofits to share progress and results for their mission, GuideStar Platinum, was introduced.</Panel.Body>
   </Panel>
-  <Panel>
+  
+  <Panel href = "">
     <Panel.Heading>
       <Panel.Title componentClass="h3">The Salvation Army
 

@@ -40,7 +40,7 @@ class Feature extends Component{
     </Col>
     <Col xs={6} md={3}>
     <div> Price: $20</div>
-      <Thumbnail className="Thumbnail" href="#" alt="171x180" src="http://geekologie.com/2018/04/16/heinz-mayochup.jpg" />
+      <Thumbnail className="Thumbnail" href="#" alt="171x180" src="https://images.offerup.com/BcrapJNzLaVNDbvCn_MvXQmIZ4Q=/300x360/6030/6030c96f0d60465f9fb1a981fd6665ac.jpg" />
       
     </Col>
   </Row>
