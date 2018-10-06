@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
-import {Carousel,Panel,Col,Thumbnail,Button,Grid,Row} from "react-bootstrap"
+import {Carousel,Panel,Thumbnail,Button,Grid} from "react-bootstrap"
 import './Menu.css';
+import { Col, Container, Row, Footer } from 'mdbreact';
 
 class Menu extends Component {
     render() {
@@ -72,7 +73,20 @@ class Menu extends Component {
         
         </div>
 
-</div>
+
+
+<Footer color="blue" className="footer1">
+                <Container fluid className="text-center text-md-left">
+                    
+                </Container>
+                <div className="footer-copyright text-center py-3">
+                    <Container fluid>
+                        &copy; {(new Date().getFullYear())} Copyright: <a href="https://www.MDBootstrap.com"> MDBootstrap.com </a>
+                    </Container>
+                </div>
+                <br/> 
+            </Footer>
+            </div>
       );
     }
   }

@@ -27,6 +27,9 @@ class Navigation extends Component{
     <NavItem eventKey={5} href="/donate">
     Donate
     </NavItem>
+    <NavItem eventKey={6} href="https://neonto.cloud/preview/7ygawyyv/">
+    Mobile Site (Test)
+    </NavItem>
     
   </Nav>
         </Navbar>);
