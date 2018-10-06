@@ -65,7 +65,7 @@ class Menu extends Component {
         <h3>Thumbnail label</h3>
         <p>Description</p>
         <p>
-        <Button bsStyle="Buy">Buy</Button>
+        <Button bsStyle="Buy" frameBorder='true'>Buy</Button>
         </p>
       </Thumbnail>
     </Col>
