@@ -12,7 +12,7 @@ class Navigation extends Component{
     
   </Navbar.Header>
   <Nav>
-    <NavItem eventKey={1} href="/home/">
+    <NavItem eventKey={1} href="/">
       Home
     </NavItem>
     <NavItem eventKey={2} href="/features/">
@@ -21,7 +21,7 @@ class Navigation extends Component{
     <NavItem eventKey={3} href="/Items/">
       Items
     </NavItem>
-    <NavItem eventKey={4} href="/Log In/">
+    <NavItem eventKey={4} href="/Login/">
       Sign Up/Log In
     </NavItem>
     <NavDropdown eventKey={3} title="Dropdown" id="basic-nav-dropdown">
