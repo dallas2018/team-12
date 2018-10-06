@@ -10,6 +10,8 @@ import Menu from './MenuPage';
 import Navigation from './navigation';
 
 
+
+
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<Navigation/>,document.getElementById('Header'));
@@ -19,6 +21,7 @@ ReactDOM.render(
         <Route path="/" exact component={Menu} />
         <Route path="/login" exact component={Login} />
         <Route path="/features" exact component ={Features}/>
+        <Route path="/donate" exact component ={Donation}/>
         
     </div>
 </Router>,
