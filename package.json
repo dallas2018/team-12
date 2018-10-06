@@ -3,9 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "axios": "^0.18.0",
+    "install": "^0.12.1",
+    "material-ui": "^0.20.2",
+    "npm": "^6.4.1",
     "react": "^16.5.2",
+    "react-bootstrap": "^0.32.4",
     "react-dom": "^16.5.2",
-    "react-scripts": "2.0.4"
+    "react-scripts": "2.0.4",
+    "react-tap-event-plugin": "^3.0.3",
+    "reactstrap": "^6.5.0"
   },
   "scripts": {
     "start": "react-scripts start",
