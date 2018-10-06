@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import placeholder from 'react-bootstrap';
 import {Panel} from 'react-bootstrap'
-import EmptyPlaceholder from 'react-empty-placeholder';
 
 class Sale extends Component {
     render() {
