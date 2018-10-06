@@ -9,16 +9,20 @@ class Navigation extends Component{
         return(
         <Navbar>
   <Navbar.Header>
-    <Navbar.Brand>
-      <a href="#home">React-Bootstrap</a>
-    </Navbar.Brand>
+    
   </Navbar.Header>
   <Nav>
-    <NavItem eventKey={1} href="#">
-      Link
+    <NavItem eventKey={1} href="/home/">
+      Home
     </NavItem>
-    <NavItem eventKey={2} href="#">
-      Link
+    <NavItem eventKey={2} href="/features/">
+      Features
+    </NavItem>
+    <NavItem eventKey={3} href="/Items/">
+      Items
+    </NavItem>
+    <NavItem eventKey={4} href="/Log In/">
+      Sign Up/Log In
     </NavItem>
     <NavDropdown eventKey={3} title="Dropdown" id="basic-nav-dropdown">
       <MenuItem eventKey={3.1}>Action</MenuItem>
