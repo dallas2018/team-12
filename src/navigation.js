@@ -15,7 +15,7 @@ class Navigation extends Component{
     <NavItem eventKey={1} href="/">
       Home
     </NavItem>
-    <NavItem eventKey={2} href="/features/">
+    <NavItem eventKey={2} href="/features">
       Features
     </NavItem>
     <NavItem eventKey={3} href="/Items/">
