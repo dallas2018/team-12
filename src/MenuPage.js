@@ -70,7 +70,7 @@ class Menu extends Component {
       </Thumbnail>
     </Col>
   </Row>
-</Grid>;
+</Grid>
         </Panel>
         
         </div>
