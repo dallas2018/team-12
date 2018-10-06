@@ -1,64 +1,37 @@
 import React,{Component} from 'react';
-import {Panel,Button} from 'react-bootstrap';
-
+import {Row,Col,Thumbnail,Grid} from 'react-bootstrap';
+import './Feature.css';
 
 class Feature extends Component{
-
-    constructor(props){
-
-    }
     render(){
         return(
         <div>
-            <Button onClick={() => this.setState({ open: !this.state.open })}>
-            Click to toggle
-            </Button>
-            <br />
-            <Panel id="collapsible-panel-example-1" expanded={this.state.open}>
-            <Panel.Collapse>
-                <Panel.Body>
-                Anim pariatur cliche reprehenderit, enim eiusmod high life
-                accusamus terry richardson ad squid. Nihil anim keffiyeh
-                helvetica, craft beer labore wes anderson cred nesciunt sapiente
-                ea proident.
-                </Panel.Body>
-            </Panel.Collapse>
-            </Panel>
-
-            <p>You can also make the Panel heading toggle the collapse.</p>
-
-            <Panel id="collapsible-panel-example-2" defaultExpanded>
-            <Panel.Heading>
-                <Panel.Title toggle>
-                Title that functions as a collapse toggle
-                </Panel.Title>
-            </Panel.Heading>
-            <Panel.Collapse>
-                <Panel.Body>
-                Anim pariatur cliche reprehenderit, enim eiusmod high life
-                accusamus terry richardson ad squid. Nihil anim keffiyeh
-                helvetica, craft beer labore wes anderson cred nesciunt sapiente
-                ea proident.
-                </Panel.Body>
-            </Panel.Collapse>
-            </Panel>
-
-            <p>Or use a Panel.Toggle component to customize</p>
-
-            <Panel id="collapsible-panel-example-3" defaultExpanded>
-            <Panel.Heading>
-                <Panel.Title>Title that functions as a collapse toggle</Panel.Title>
-                <Panel.Toggle componentClass="a">My own toggle</Panel.Toggle>
-            </Panel.Heading>
-            <Panel.Collapse>
-                <Panel.Body>
-                Anim pariatur cliche reprehenderit, enim eiusmod high life
-                accusamus terry richardson ad squid. Nihil anim keffiyeh
-                helvetica, craft beer labore wes anderson cred nesciunt sapiente
-                ea proident.
-                </Panel.Body>
-            </Panel.Collapse>
-            </Panel>
+    <Grid>
+           <Row>
+    <Col xs={6} md={3}>
+      <Thumbnail className="Thumbnail" href="#" alt="171x180" src="https://cdn-image.realsimple.com/sites/default/files/styles/portrait_435x518/public/1527198293/best%20beauty%20products%20and%20must%20haves%20of%20all%20time.jpg?itok=mp4Ks9KD"/>
+    </Col>
+    <Col xs={6} md={3}>
+      <Thumbnail className="Thumbnail" href="#" alt="171x180" src="http://cdn.shopify.com/s/files/1/0100/3792/products/SharkTankScented_grande.jpg?v=1538190094"  />
+    </Col>
+    <Col xs={6} md={3}>
+      <Thumbnail className="Thumbnail" href="#" alt="171x180" src="http://geekologie.com/2018/04/16/heinz-mayochup.jpg" />
+    </Col>
+  </Row>
+  </Grid>
+  <Grid>
+    <Row>
+    <Col xs={6} md={3}>
+      <Thumbnail className="Thumbnail" href="#" alt="171x180" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTipXt3_ynYjuiltUE0KRJjWxcsiRXy2eVdbQGIyp1fOSPP18Hh" />
+    </Col>
+    <Col xs={6} md={3}>
+      <Thumbnail className="Thumbnail"  href="#" alt="171x180" src="https://images-na.ssl-images-amazon.com/images/I/61BeXNDwpcL._SY300_QL70_.jpg"  />
+    </Col>
+    <Col xs={6} md={3}>
+      <Thumbnail className="Thumbnail" href="#" alt="171x180" src="http://geekologie.com/2018/04/16/heinz-mayochup.jpg" />
+    </Col>
+  </Row>
+</Grid> 
         </div>   
         );
     }
